@@ -1,0 +1,46 @@
+body    {
+    background-color: crimson;
+}
+
+#root {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+}
+
+.filter_search {
+   padding-bottom: 5px;
+}
+
+.users_table   {
+    border-collapse: collapse;
+    width: 800px;
+    font-family: Verdana;
+}
+th  {
+    position: sticky;
+    background-color: #000;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: left;
+}
+
+td  {
+    text-align: left;
+    font-weight: 100;
+    font-family: Calibri;
+    color: #000;
+}
+
+tbody tr:nth-child(2n){
+    background-color: #eee;
+  }
+
+  .title_banner {
+      font-family: Verdana;
+      font-weight: bold;
+      color: rgba(29, 252, 9, 0.938);
+  }
