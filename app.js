@@ -18,7 +18,7 @@ const fetchCountry = async () => {
                 </tr>
             `
         })  
-        document.querySelector('#userDataTable').innerHTML = userDatas
+        document.querySelector('#userDataTable').innerHTML = userDatas;
     })
 }
 
